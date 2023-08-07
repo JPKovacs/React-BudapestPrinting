@@ -5,7 +5,7 @@ import Form from '../components/Form'
 const Contact = () => {
   return (
    <>
-      <HeroImage heading="Kapcsolat" text="Vedd fel velünk a kapcsolatot." />
+      <HeroImage heading="Kapcsolat" text="Vegye fel velünk a kapcsolatot! Köszönjük!" />
       <Form />  
    </>
   )

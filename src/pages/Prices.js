@@ -5,7 +5,7 @@ import Pricing from '../components/Pricing'
 const Prices = () => {
   return (
     <>
-        <HeroImage heading="Árak" text="Válassz egy utat." />
+        <HeroImage heading="Árak" text="Válasszon egy specifikációt!" />
         <Pricing />
     </>
   )

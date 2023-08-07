@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="location">
                     <FaSearchLocation size={20} style={{color: '#fff', marginRight: '2rem'}} />
                     <div>
-                        <p>Űr utca 1.</p>
+                        <p>Gutenberg utca 100.</p>
                         <h4>1094 Budapest</h4>
                     </div>  
                 </div>  
@@ -27,14 +27,14 @@ const Footer = () => {
                 <div className="email">
                     <h4>
                         <FaMailBulk size={20} style={{color: '#fff', marginRight: '2rem'}} />
-                        utazas@galaxytravel.hu
+                        info@budapestprinting.hu
                     </h4>
                 </div>
             </div>
 
             <div className="right">
                 <h4>Rólunk</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum distinctio quas quisquam, necessitatibus dolore eos consequatur neque? Explicabo, quas sed porro minima neque ipsam doloribus culpa odit aspernatur placeat incidunt, quia iusto nihil suscipit quos libero delectus dolore iure officia? Fuga magnam, a ut perferendis molestias laboriosam laudantium laborum autem.</p>
+                <p>Cégünk a legmagasabb minőségben vállalja címkék nyomtatását ofszet technológiával. Korszerű gépparkunk biztosítja a folyamatos jó színvonalú gyártást. Magasan képzett munkatársaink képesek a legjobb minőségű termékek előállítására!</p>
                 <div className="social">
                     <FaFacebook size={30} style={{color: '#fff', marginRight: '1rem'}} />
                     <FaTwitter size={30} style={{color: '#fff', marginRight: '1rem'}} />

@@ -27,11 +27,13 @@ const Navbar = () => {
 
   return (
     <header className={bg ? 'header header-bg' : 'header'}>
-        <Link to="/"><h1>Galaxy Travel</h1></Link>
+        <Link to="/"><h1>Budapest Printing</h1></Link>
         <ul className={click ? 'nav-menu nav-active' : 'nav-menu'} >
             <li> <Link to="/">Kezdőoldal</Link> </li>
+            <li> <Link to="/products">Termékek</Link> </li>
             <li> <Link to="/prices">Árak</Link> </li>
-            <li> <Link to="/training">Képzés</Link> </li>
+            <li> <Link to="/training">Támogatás</Link> </li>
+            <li> <Link to="/career">Karrier</Link> </li>
             <li> <Link to="/contact">Kapcsolat</Link> </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

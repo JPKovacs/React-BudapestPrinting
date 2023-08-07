@@ -8,33 +8,33 @@ const Pricing = () => {
         <div className="card-container">
 
             <div className='card'>
-                <h3>- Alap csomag -</h3>
+                <h3>- Specifikáció 1 -</h3>
                 <span className='bar'></span>
-                <p className='btc'>1 BTC</p>
-                <p>- 3 Nap -</p>
-                <p>- Napi 3 étkezés -</p>
-                <p>- Privát szoba -</p>
-                <Link to="/contact" className='btn'>Foglalás</Link>
+                <p className='btc'>2500 Ft / 1000 db</p>
+                <p>- 4 szín + lakk nyomtatás -</p>
+                <p>- 80g-os címkenyomó papír -</p>
+                <p>- Hőálló lakk -</p>
+                <Link to="/contact" className='btn'>Rendelés</Link>
             </div>
 
             <div className='card'>
-                <h3>- Extra csomag -</h3>
+            <h3>- Specifikáció 2 -</h3>
                 <span className='bar'></span>
-                <p className='btc'>2 BTC</p>
-                <p>- 5 Nap -</p>
-                <p>- Minden ami az alap csomaghoz tartozik -</p>
-                <p>- Űrséta -</p>
-                <Link to="/contact" className='btn'>Foglalás</Link>
+                <p className='btc'>3500 Ft / 1000 db</p>
+                <p>- 5 szín + lakk nyomtatás -</p>
+                <p>- 80g-os ofszet papír -</p>
+                <p>- Hőálló lakk -</p>
+                <Link to="/contact" className='btn'>Rendelés</Link>
             </div>
 
             <div className='card'>
-                <h3>- Gyémánt csomag -</h3>
+            <h3>- Specifikáció 3 -</h3>
                 <span className='bar'></span>
-                <p className='btc'>5 BTC</p>
-                <p>- 10 Nap -</p>
-                <p>- Minden ami az extra csomaghoz tartozik -</p>
-                <p>- Privát lakosztály -</p>
-                <Link to="/contact" className='btn'>Foglalás</Link>
+                <p className='btc'>4500 Ft / 1000 db</p>
+                <p>- 6 szín + lakk nyomtatás -</p>
+                <p>- 80g-os műnyomó papír -</p>
+                <p>- Hőálló, magasfényű lakk -</p>
+                <Link to="/contact" className='btn'>Rendelés</Link>
             </div>
 
         </div>

@@ -5,7 +5,7 @@ import TrainingSection from '../components/Training'
 const Training = () => {
   return (
     <>
-        <HeroImage heading="Képzés" text="Utazás előtti és utazás közbeni képzések." />
+        <HeroImage heading="Támogatás" text="Konzultáljon munkatársunkkal, hogy a legjobban megfelelő megoldás készüljön el!" />
         <TrainingSection />
     </>
   )
